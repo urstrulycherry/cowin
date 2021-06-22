@@ -1,0 +1,69 @@
+body{
+	background: url('../images/covidbg.jpg')  no-repeat center center fixed;
+}
+*{
+    overflow-x:scroll;
+}
+.header{
+	text-align: center;
+	font-size:40px;
+	padding:15px;
+}
+.header h1{
+	font-size: 60px;
+}
+.works{
+	display: block;
+	width:100%;
+}
+.one, .two{
+	width:50%;
+	float:left;
+	text-align: center;
+	background-color:rgba(255,255,255,0.3);
+	padding:40px;
+	padding-top:150px;
+	color:#303c6c;
+	height:400px;
+}
+@media screen and (max-width: 480px) {
+  .one, .two{
+  width:100%;
+  }
+  .btn-outline-warning, .btn-outline-danger, .btn-outline-primary{
+  	float: none;
+  	display: block;
+  }
+  #main-content{
+  width:100%;
+  margin-left:0;
+  }
+}
+
+#nav-tab{
+	float: left;
+}
+.btn-outline-warning, .btn-outline-danger, .btn-outline-primary{
+	padding: 20px;
+}
+#main-content{
+	margin-top:50px;
+	width:50%;
+	margin-left:25%;
+}
+#SBPData{
+	background-color: #fff;
+	align-content: center;
+	text-align: center;
+	padding:10px;
+	border-radius: 8px;
+}
+#SPBData H1{
+	text-align: center;
+}
+footer{
+	background-color: #000;
+	color:white;
+	text-align: center;
+	font-size: 20px;
+}
